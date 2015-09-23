@@ -1,0 +1,6 @@
+	ORG $3F
+ DAA
+	LDAB 1,PC
+	BLO	EN3
+	LBHI	NE_X
+ END

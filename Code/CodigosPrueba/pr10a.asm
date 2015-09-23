@@ -1,0 +1,4 @@
+	ORG	0
+	DS.B	1
+	RMW	2
+	END

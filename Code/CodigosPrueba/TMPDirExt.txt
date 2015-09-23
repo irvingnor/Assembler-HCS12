@@ -1,0 +1,159 @@
+ public void validaDir(String operando)
+        {
+            //Validar para cuando es extendido por etiqueta
+            switch (operando[0])
+            {
+                case '0':
+                case '1':
+                case '2':
+                case '3':
+                case '4':
+                case '5':
+                case '6':
+                case '7':
+                case '8':
+                case '9':
+                case '@':
+                case '%':
+                case '$':
+                case '-':
+                case '+':
+
+                    break;
+                case '#':
+                    encontrado = false;
+                    return;
+                    break;
+                case '[':
+                    encontrado = false;
+                    return;
+                    break;
+                default:
+                    LABEL etiqueta = new LABEL(operando);
+                    etiqueta.validaEtiqueta();
+                    if (etiqueta.getValida())
+                    {
+                        mensajeResultado = "Extendido";
+                        modoDireccionamiento = "EXT";
+                        encontrado = true;
+                        return;
+                    }
+                    else
+                    {
+                        mensajeResultado = "Etiqueta no valida para extendido";
+                        encontrado = false;
+                        return;
+                        //Etiqueta no valida Error
+                    }
+                    break;
+            }
+            if (operando.Length == 1 && !isDigit(operando[0]))
+            {
+                mensajeResultado = "Error en directo: Sintaxis (%|@|$ o ninguna base) y despues valores correspondientes a la base";
+                encontrado = false;
+                return;
+            }
+            int tam = operando.Length, num = 0;
+            String tmp = "";
+            for (int i = 1; i < tam; i++)
+            {
+                tmp += operando[i];
+                switch (operando[0])
+                {
+                    case '%':
+                        if (operando[i] - '0' > 2 || operando[i] - '0' < 0)
+                        {
+                            mensajeResultado = "Valores invalidos para la base. Binario solo acepta los digitos 1 o 0";
+                            encontrado = false;
+                            return;
+                        }
+                        break;
+                    case '@':
+                        if (operando[i] - '0' > 8 || operando[i] - '0' < 0)
+                        {
+                            mensajeResultado = "Valores invalidos para la base. Octal solo acepta digitos del 0 al 7";
+                            encontrado = false;
+                            return;
+                        }
+                        break;
+                    case '$':
+                        if ((operando[i] >= 'A' && operando[i] <= 'F') || (operando[i] - '0' < 10 && operando[i] - '0' > 0))
+                        {
+                        }
+                        else
+                        {
+                            mensajeResultado = "Valores invalidos para la base. Hexadecimal solo acepta digitos del 0 al 9 y de la A a la F";
+                            encontrado = false;
+                            return;
+                        }
+                        break;
+                }
+            }
+            if (operando[0] != '@' && operando[0] != '%' && operando[0] != '$')
+            {
+                try
+                {
+                    num = Convert.ToInt32(operando);
+                }
+                catch(Exception ex)
+                {
+                    mensajeResultado = "Valores invalidos para la base. Decimal solo acepta digitos del 0 al 9";
+                    encontrado = false;
+                    return;
+                }
+            }
+            else
+            {
+                for (int i = 1; i < tam; i++)
+                {
+                    switch (operando[0])
+                    {
+                        case '%':
+                            num += (Convert.ToInt16(operando[i] - '0') * (int)Math.Pow(2, i - 1));
+                            break;
+                        case '@':
+                            num += (Convert.ToInt16(operando[i] - '0') * (int)Math.Pow(8, i - 1));
+                            break;
+                        case '$':
+                            if ((System.Convert.ToInt16(operando[i]) >= 65 && System.Convert.ToInt16(operando[i]) <= 70) ||
+                                (System.Convert.ToInt16(operando[i]) >= 97 && System.Convert.ToInt16(operando[i]) <= 102))
+                            {
+                                if (System.Convert.ToInt16(operando[i]) > 70)
+                                {
+                                    num += ((System.Convert.ToInt16(operando[i]) - 87) * (int)Math.Pow(16, i - 1));
+                                }
+                                else
+                                {
+                                    num += ((System.Convert.ToInt16(operando[i]) - 55) * (int)Math.Pow(16, i - 1));
+                                }
+                            }
+                            else
+                            {
+                                num += (Convert.ToInt16(operando[i]) * (int)Math.Pow(16, i - 1));
+                            }
+                            break;
+                    }
+                }
+            }
+            if (num >= 0 && num <= 255)
+            {
+                mensajeResultado = "Directo";
+                modoDireccionamiento = "DIR";
+                encontrado = true;
+                return;
+            }
+            else if (num >= 256 && num <= 65535)
+            {
+                mensajeResultado = "Extendido";
+                modoDireccionamiento = "EXT";
+                encontrado = true;
+                return;
+            }
+            else
+            {
+                mensajeResultado = "Fuera de rango en Extendido";
+                encontrado = false;
+                return;
+                //Fuera de rango
+            }
+        }

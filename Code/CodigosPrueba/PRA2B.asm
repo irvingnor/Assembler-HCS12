@@ -1,0 +1,6 @@
+	ORG	505
+	DEX	-3,Y
+	CMPA
+	BLT
+	LBMI
+	END

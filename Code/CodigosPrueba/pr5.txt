@@ -1,0 +1,5 @@
+	ORG	0
+	LDAA	#$55
+	LDX	#$1234
+	LDY	#$67
+	END

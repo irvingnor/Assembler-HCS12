@@ -1,0 +1,9 @@
+	ORG	$0
+	LDAA	,X
+	LDAA	0,X
+	LDAA	1,X
+	LDAA	15,X
+	LDAA	-1,X
+	LDAA	-16,X
+	STAB	-8,Y
+	END

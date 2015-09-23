@@ -1,0 +1,44 @@
+C:\Documents and Settings\Administrador\Configuración local\Datos de programa\Temporary Projects\Ensamblador HCS12\bin\Debug\Ensamblador HCS12.exe
+C:\Documents and Settings\Administrador\Configuración local\Datos de programa\Temporary Projects\Ensamblador HCS12\bin\Debug\Ensamblador HCS12.pdb
+C:\Documents and Settings\Administrador\Configuración local\Datos de programa\Temporary Projects\Ensamblador HCS12\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Configuración local\Datos de programa\Temporary Projects\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.Form1.resources
+C:\Documents and Settings\Administrador\Configuración local\Datos de programa\Temporary Projects\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Configuración local\Datos de programa\Temporary Projects\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Configuración local\Datos de programa\Temporary Projects\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.exe
+C:\Documents and Settings\Administrador\Configuración local\Datos de programa\Temporary Projects\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.exe
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.Form1.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\Ensamblador HCS12\Ensamblador HCS12\bin\Debug\Ensamblador HCS12.exe
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\Ensamblador HCS12\Ensamblador HCS12\bin\Debug\Ensamblador HCS12.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.AcercaDe.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.frmSplash.resources
+C:\Compartida\Proyectos - copia\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.exe
+C:\Compartida\Proyectos - copia\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.pdb
+C:\Compartida\Proyectos - copia\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\ResolveAssemblyReference.cache
+C:\Compartida\Proyectos - copia\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.AcercaDe.resources
+C:\Compartida\Proyectos - copia\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.Form1.resources
+C:\Compartida\Proyectos - copia\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.frmSplash.resources
+C:\Compartida\Proyectos - copia\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.Properties.Resources.resources
+C:\Compartida\Proyectos - copia\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\ResGen.read.1.tlog
+C:\Compartida\Proyectos - copia\Ensamblador HCS12\Ensamblador HCS12\obj\Debug\ResGen.write.1.tlog
+C:\Compartida\Proyectos - copia\Ensamblador HCS12\Ensamblador HCS12\bin\Debug\Ensamblador HCS12.exe
+C:\Compartida\Proyectos - copia\Ensamblador HCS12\Ensamblador HCS12\bin\Debug\Ensamblador HCS12.pdb
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.exe
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.pdb
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\bin\Debug\Ensamblador HCS12.exe
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\bin\Debug\Ensamblador HCS12.pdb
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\obj\Debug\ResolveAssemblyReference.cache
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.AcercaDe.resources
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.Form1.resources
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.frmSplash.resources
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\obj\Debug\Ensamblador_HCS12.Properties.Resources.resources
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\obj\Debug\ResGen.read.1.tlog
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\obj\Debug\ResGen.write.1.tlog
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\bin\Debug\Ensamblador HCS12.exe.manifest
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\bin\Debug\Ensamblador HCS12.application
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.exe.manifest
+C:\Compartida\Proyectos - copia\Ensamblador HCS12Nuevo\Ensamblador HCS12\obj\Debug\Ensamblador HCS12.application

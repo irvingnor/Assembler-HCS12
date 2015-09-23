@@ -1,0 +1,5 @@
+	ORG	$0
+	LDAA	B,X
+	LDAA	A,X
+	LDAA	D,X
+	END
